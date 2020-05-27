@@ -11,10 +11,15 @@ hamburger.addEventListener('click', () => {
     navList.classList.toggle('active');
 
     //freezing scroll
-    body.classList.toggle('screen-freez');
-})
+    if(!(body.classList.contains('screen-freez')))
+        body.classList.add('screen-freez');
+    else
+        body.classList.remove('screen-freez');
+
+});
 
 navList.addEventListener('click',()=>{
     navList.classList.toggle('active');
     hamburger.classList.remove('toggle'); /*so that the time symbol goes back to bar symbol */
+
 })
