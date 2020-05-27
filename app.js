@@ -14,14 +14,10 @@ hamburger.addEventListener('click', () => {
 });
 
 
-navList.addEventListener('click',()=>{
+navList.addEventListener('click', () => {
     navList.classList.toggle('active');
     hamburger.classList.remove('toggle'); /*so that the time symbol goes back to bar symbol */
-});
 
-const removeScrollClass = () => {
-    if(body.classList.contains('screen-freez'))
+    /*making sure screen-freez class is removed once clicked */
     body.classList.remove('screen-freez');
-}
-
-removeScrollClass();
+});
