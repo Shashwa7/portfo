@@ -504,6 +504,7 @@ nav{
 
       .contact-links{
           font-size: 1.2rem;
+          padding: .5rem;
       }
       .contact-links i{
           font-size: 1.8rem;
@@ -514,7 +515,7 @@ nav{
           font-weight: bold;
           display: flex;
           flex-direction: column;
-          margin: 0 1.5rem;
+          margin: 0 1.2rem;
       }
 
 }
