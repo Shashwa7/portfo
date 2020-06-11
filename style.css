@@ -133,6 +133,7 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
 .welcome-section h1{
     font-size: 7rem;
     letter-spacing: 1.5px;
@@ -227,6 +228,11 @@ nav{
          justify-content: space-around;
          letter-spacing: 1.2px;
       }
+      .avatar img{
+        width: 200px;
+        border-radius: 100%;
+        margin: 1rem 0;
+    }
 
       .foot-msg{
           width: 100%;
@@ -382,8 +388,8 @@ nav{
     }
 
      /*to avoid scroliling in mobiles*/
-.screen-freez{
-    position: fixed;
+  .screen-freez{
+    overflow: hidden;
 }
 } 
  
@@ -440,6 +446,10 @@ nav{
       .contact-details i{
           margin: 0.5rem;
       }
+
+      .avatar{
+        width: 150px;
+    }
 }
 
 @media (max-width: 480px){
@@ -484,6 +494,9 @@ nav{
       footer{
           font-size: 1rem;
           padding: .7rem 0;
+      }
+      .avatar{
+          width: 120px;
       }
       .foot-msg{
           font-size: 1.3rem;
