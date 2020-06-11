@@ -515,8 +515,10 @@ nav{
           font-weight: bold;
           display: flex;
           flex-direction: column;
-          margin: 0 1rem;
-          width: 80px;
+          margin: 0 1.2rem;
+          width: 100px;
+          text-align: center;
+
       }
 
 }
@@ -528,5 +530,7 @@ nav{
     }
     .contact-details{
         font-size: 1rem;
+        margin: 0 1rem;
+
     }
 }
