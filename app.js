@@ -21,3 +21,8 @@ navList.addEventListener('click', () => {
     /*making sure screen-freez class is removed once clicked */
     body.classList.remove('screen-freez');
 });
+
+//prevent pinch zoom in iphones
+ document.addEventListener('gesturestart', (e) => {
+            e.preventDefault();
+ });
