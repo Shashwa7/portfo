@@ -229,7 +229,7 @@ nav{
          letter-spacing: 1.2px;
       }
       .avatar img{
-        width: 200px;
+        width: 300px;
         border-radius: 100%;
         margin: 1rem 0;
     }
@@ -446,10 +446,6 @@ nav{
       .contact-details i{
           margin: 0.5rem;
       }
-
-      .avatar{
-        width: 150px;
-    }
 }
 
 @media (max-width: 480px){
@@ -496,7 +492,7 @@ nav{
           padding: .7rem 0;
       }
       .avatar{
-          width: 120px;
+          width: 200px;
       }
       .foot-msg{
           font-size: 1.3rem;
@@ -525,7 +521,7 @@ nav{
 @media(max-width:330px){
 
     .avatar{
-        width: 105px;
+        width: 150px;
     }
     .contact-details{
         font-size: 1rem;
