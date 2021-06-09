@@ -611,6 +611,10 @@ nav{
 
       }
 
+      #myResume{
+        padding: 1.5rem;
+    }
+
 }
 
 @media(max-width:330px){
@@ -625,9 +629,6 @@ nav{
     }
     .myDetails{
         padding: .5rem;
-    }
-    #myResume{
-        padding:1.5rem;
     }
   
 }
