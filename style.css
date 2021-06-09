@@ -623,6 +623,9 @@ nav{
         margin: 0 1rem;
 
     }
+    .myDetails{
+        padding: .5rem;
+    }
     #myResume{
         padding:2rem;
     }
