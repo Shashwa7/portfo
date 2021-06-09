@@ -614,6 +614,10 @@ nav{
       #myResume{
         padding: 1rem;
     }
+    
+    .myDetails h2{
+        font-size: 1.8rem;
+    }
 
 }
 
