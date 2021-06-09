@@ -151,9 +151,7 @@ nav{
     padding:1rem;
     justify-content: center;
 }
-.myDetails h2{
-    color:#ff9e43;
-}
+
 #myTech{
     flex:1;
     display: grid;
@@ -180,7 +178,7 @@ nav{
 }
 
 #myResume i{
-    font-size: 4rem;
+    font-size: 5rem;
     color:#35ff23;
 }
 .welcome-section h1{
@@ -467,7 +465,9 @@ nav{
         font-size: 4rem;
         width:55px;
     }
-    
+    #myResume i{
+        font-size: 3rem;
+    }
 
     .bigH1{
         font-size: 3.5rem;
@@ -602,4 +602,8 @@ nav{
         margin: 0 1rem;
 
     }
+    #myResume{
+        padding:2rem;
+    }
+  
 }
